@@ -1,0 +1,166 @@
+.App {
+  padding: 1vh;
+  text-align: center;
+  background-color: #5C5253;
+  min-width: fit-content;
+}
+
+.App-logo {
+  height: 40vmin;
+  width: 60vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 4s linear;
+  }
+}
+
+.App-menu {
+  padding: 0.5vh;
+  background-color: #300df5d5;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: left;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(24px + 2vmin);
+  color: rgb(101, 44, 175);
+}
+
+.App-header {
+  padding: 2vh;
+  background-color: #9F8F81;
+  min-height: 50vh;
+  min-width: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-leader {
+  padding: 2vh;
+  background-color: #9F8F81;
+  min-height: 70vh;
+  min-width: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-Sidebar {
+  padding: 2vh;
+  background-color: #9F8F81;
+  max-height: 120vh;
+  min-width: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+Code {
+  color: antiquewhite;
+  background-color: #531048;
+}
+
+.redbackground {
+  background-color: crimson;
+}
+.subsub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(0.1px + 1vmin);
+  color: white;
+
+}
+sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(0.1px + 1vmin);
+  color: white;
+}
+
+main {
+  right: 4vh;
+  padding: 1vh;
+  background-color: #2E2741;
+  min-height: 5vh;
+  min-width: 60vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(255, 255, 255);
+
+}
+
+.maincar {
+  padding: 1vh;
+  background-color: #2E2741;
+  min-height: 110vh;
+  min-width: 75vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(255, 255, 255);
+
+}
+
+.socialmain {
+  right: 4vh;
+  padding: 1vh;
+  background-color: #591D24;
+  min-height: 5vh;
+  min-width: 60vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(255, 255, 255);
+
+}
+.socialrow {
+  right: 4vh;
+  padding: 1vh;
+  background-color: #591D24;
+  min-height: 5vh;
+  min-width: 60vh; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(255, 255, 255);
+
+}
