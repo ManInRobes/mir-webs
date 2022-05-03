@@ -1,21 +1,9 @@
-import React, { useEffect } from 'react';
-import logo from '../LogoWebsite.png';
+import logo from './/img/LogoWebsite.png';
 import './App.css';
-import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
-import ThreeDRotation from '@mui/icons-material/ThreeDRotation';
-import { Container, Icon, Menu } from '@mui/material';
-import { green } from '@mui/material/colors';
-import { Box } from '@mui/system';
-import Stack from '@mui/material/Stack';
-import Link from '@mui/material/Link';
-import { Circle, CoPresent, Gavel } from '@mui/icons-material';
 import BasicMenu from '../BasicMenu';
 import {Example} from './ExampleCar';
-import AppContainer from './AppContainer';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { purple } from '@mui/material/colors';
-import Carousel from 'react-material-ui-carousel'
-import { Paper, Button } from '@mui/material'
 
 
 // Sets theme
@@ -97,11 +85,11 @@ function App() {
             <sub>Socials, get in contact</sub>
             <header className="socialrow">
 
-              <sub>Insta</sub>
+              <sub>Insta </sub>
               
-              <sub>Linkd</sub>
+              <sub>Linkd </sub>
               
-              <sub> Twitch</sub>
+              <sub> Twitch </sub>
             
             </header>
 

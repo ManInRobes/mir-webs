@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import Carousel from 'react-material-ui-carousel'
 import { Paper, Button } from '@mui/material'
-import image1 from '../Backroomtestlow1.png';
-import image2 from '../BusterSwordCaveV1.png';
+import image1 from './/img/Backroomtestlow1.png';
+import image2 from './/img/BusterSwordCaveV1.png';
 
 let Backroom= (<img src={image1} className="App" alt="logo" />);
 let CloudSword= (<img src={image2} className="App" alt="logo" />);
@@ -24,12 +24,19 @@ export function Example(props: any)
             image: CloudSword
         },
         {
+            //Programming
             name: "Programming",
             description: "Click Clack Click Clack"
         },
         {
+            //Hardware
             name: "Hardware/Manufacturing",
             description: "Usally models with extra steps"
+        },
+        {
+            //Car stuff
+            name: "Car stuff",
+            description: "Working on my 86'"
         },
     ]
 
