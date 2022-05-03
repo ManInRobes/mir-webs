@@ -1,4 +1,5 @@
 import logo from './/img/LogoWebsite.png';
+import {Routes, Route, Link} from "react-router-dom";
 import './App.css';
 import BasicMenu from '../BasicMenu';
 import {Example} from './ExampleCar';
@@ -20,24 +21,10 @@ const theme = createTheme({
   },
 });
 
-// Also (#2), test ABS origin set here
 
 function App() {
 
   let gabe_face= (<img src={logo} className="App-logo" alt="logo" />);
-  // Test, setting ABS origin set here
-  // #1 Find boundaries the page, so image will never exceed max x and y
-  // #2 movement of icon (represents math for angle)x+(centered y)
-  // useEffect(
-    // () => {
-      // console.log("yomama")
-      // setInterval(
-        // () => {
-          // console.log()
-        // },33
-      // )
-    // }
-  // )
 
 // Menu Main Body text
   
@@ -52,6 +39,11 @@ function App() {
             <sub>AKA:Gabriel Holmquist</sub>
           </main>
           <p className='App-Menu'>
+            <h1>Welcome to react Router!</h1>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="about" element={<About />} />
+            </Routes>
           <main  ><BasicMenu/>
           </main>
           </p>
@@ -104,3 +96,35 @@ function App() {
 export default App;
 
 
+// App.js
+function Home() {
+  return (
+    <>
+      <main>
+        <h2>Welcome to the homepage!</h2>
+        <p>You can do this, I believe in you.</p>
+      </main>
+      <nav>
+        <Link to="/about">About</Link>
+      </nav>
+    </>
+  );
+}
+
+
+function About() {
+  return (
+    <>
+      <main>
+        <h2>Who are we?</h2>
+        <p>
+          That feels like an existential question, don't you
+          think?
+        </p>
+      </main>
+      <nav>
+        <Link to="/">Home</Link>
+      </nav>
+    </>
+  );
+}
