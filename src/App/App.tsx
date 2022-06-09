@@ -6,6 +6,7 @@ import {Example} from './ExampleCar';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { purple } from '@mui/material/colors';
 
+// 6.9.2022, I thinks i need to change the color theme for the website
 
 // Sets theme
 const theme = createTheme({
@@ -102,10 +103,12 @@ function Home() {
     <>
       <main>
         <h2>Welcome to the homepage!</h2>
-        <p>You can do this, I believe in you.</p>
+        <p>Have a look around!
+          There's all sorts of stuff and I will continue to add things weekly!
+        </p>
       </main>
       <nav>
-        <Link to="/about">About</Link>
+        <Link to="/about">About Me!</Link>
       </nav>
     </>
   );
@@ -118,8 +121,9 @@ function About() {
       <main>
         <h2>Who are we?</h2>
         <p>
-          That feels like an existential question, don't you
-          think?
+        Gabriel “Gabe” Holmquist is a graduate of Shoreline Community College with an AAAS in Manufacturing/Machinist technology.
+        Amongst other skills, he is excited about Blender, a free 3d modeling software that offers so much, especially for beginners wanting an introduction to 3d software!
+        I really want to see how far I can push this program and have plans to build my own render farm.
         </p>
       </main>
       <nav>
