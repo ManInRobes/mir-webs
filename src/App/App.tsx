@@ -6,8 +6,10 @@ import {Example} from './ExampleCar';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { purple } from '@mui/material/colors';
 
+// Notes on issues: 
 // 6.9.2022, I thinks i need to change the color theme for the website
 // 6.9.2022, Make Car images the same resolution
+
 
 // Sets theme
 const theme = createTheme({
@@ -79,11 +81,11 @@ function App() {
             <sub>Socials, get in contact</sub>
             <header className="socialrow">
 
-              <sub>Insta </sub>
+              <a href="https://www.instagram.com/maninrobes.public/">Insta</a>
               
-              <sub>Linkd </sub>
+              <a href="https://www.linkedin.com/in/gabriel-holmquist-91634b203/">LinkedIn </a>
               
-              <sub> Twitch </sub>
+              <a href="https://github.com/ManInRobes"> Github </a>
             
             </header>
 
