@@ -125,7 +125,7 @@ main {
 .maincar {
   padding: 1vh;
   background-color: #2E2741;
-  min-height: 110vh;
+  min-height: 120vh;
   min-width: 75vh; 
   display: flex;
   flex-direction: column;

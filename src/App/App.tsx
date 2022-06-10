@@ -7,6 +7,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { purple } from '@mui/material/colors';
 
 // 6.9.2022, I thinks i need to change the color theme for the website
+// 6.9.2022, Make Car images the same resolution
 
 // Sets theme
 const theme = createTheme({
